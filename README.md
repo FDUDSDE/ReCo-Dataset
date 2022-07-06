@@ -5,11 +5,19 @@ Detailed information for our dataset please see our article preprint at arXiv: h
 
 Our dataset is under the [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
+ReCo dataset is designed for Community Layout Planning tasks which is one of the three typical tasks of layout planning.
+
+![image](https://github.com/FDUDSDE/ReCo-Dataset/blob/main/images/tasks.png)
+Three typical tasks of layout planning from fine- to coarse-grained (the projection relationship in the figure is for illustration only).
+
 ### Generating 2D image data from ReCo Dataset
 1. Please download the dataset from https://www.kaggle.com/fdudsde/reco-dataset and put the JSON file under the main directory.
 2. Please make sure that the JSON file is named as ReCo_json.json
 3. You can plot one of example of the data by using "_id" as index through plot_2d_from_json.py.
 4. make_image_data.py can help you to build an image dataset from ReCo_json.json file.
+
+### Example of generated 2D image
+![image](https://github.com/FDUDSDE/ReCo-Dataset/blob/main/images/data_example.png)
 
 ### Experiments
 We redeveloped the code at https://github.com/eriklindernoren/PyTorch-GAN and used DCGAN as the backbone networks.
@@ -18,6 +26,9 @@ We used an Nvidia Tesla V100 to train the model for 2k epochs with a batch size 
 
 The training details of our demonstrated experiments are shown in `experiments` codes. \
 We used the same hyperparameters in our four sub-experiments.
+
+#### Model architecture
+![image](https://github.com/FDUDSDE/ReCo-Dataset/blob/main/images/model.png)
 
 ## Dataset DOI
 10.34740/kaggle/dsv/3689702
