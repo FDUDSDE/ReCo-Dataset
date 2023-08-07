@@ -54,6 +54,7 @@ We used the same hyperparameters in our four sub-experiments.
   copyright={Creative Commons Attribution Non Commercial Share Alike 4.0 International}\
 }
 
+Our paper has been accepted by ACM MM'23, the citation information will be updated soon!
 
 ## Acknowledgments
-This work is funded in part by the National Natural Science Foundation of China Projects No. U1936213, No.62176185. This work is also partially supported by the Shanghai Science and Technology Development Fund No. 2021SHZDZX0100, 19DZ1200802, the Fundamental Research Funds for the Central Universities.
+This work is funded in part by the National Natural Science Foundation of China Projects No. U1936213, No.62176185. This work is also partially supported by the Shanghai Science and Technology Development Fund No. 19DZ1200802, and by the Shanghai Municipal Science and Technology Major Project (2021SHZDZX0100) and the Fundamental Research Funds for the Central Universities.
