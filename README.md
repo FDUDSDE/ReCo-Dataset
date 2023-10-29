@@ -13,7 +13,7 @@ ReCo dataset is designed for Community Layout Planning tasks which is one of the
 Three typical tasks of layout planning from fine- to coarse-grained (the projection relationship in the figure is for illustration only).
 
 ### Generating 2D image data from ReCo Dataset
-1. Please download the dataset from https://www.kaggle.com/fdudsde/reco-dataset and put the JSON file under the main directory.
+1. Please download the dataset from [Kaggle](https://www.kaggle.com/fdudsde/reco-dataset) and put the JSON file under the main directory.
 2. Please make sure that the JSON file is named as ReCo_json.json
 3. You can plot one of example of the data by using "_id" as index through plot_2d_from_json.py.
 4. make_image_data.py can help you to build an image dataset from ReCo_json.json file.
@@ -22,7 +22,7 @@ Three typical tasks of layout planning from fine- to coarse-grained (the project
 ![image](https://github.com/FDUDSDE/ReCo-Dataset/blob/main/images/data_example.png)
 
 ### Experiments
-We redeveloped the code at https://github.com/eriklindernoren/PyTorch-GAN and used DCGAN as the backbone networks.
+We redeveloped the code at [PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN) and used DCGAN as the backbone networks.
 
 We used an Nvidia Tesla V100 to train the model for 2k epochs with a batch size of 128 per sub-experiment.
 
@@ -40,8 +40,7 @@ We used the same hyperparameters in our four sub-experiments.
 
 ## Citation
 ### Article Citation
-🔥ACMMM'23
-
+#### 🔥ACMMM'23
 @inproceedings{10.1145/3581783.3612465,\
 author = {Chen, Xi and Xiong, Yun and Wang, Siqi and Wang, Haofen and Sheng, Tao and Zhang, Yao and Ye, Yu},\
 title = {ReCo: A Dataset for Residential Community Layout Planning},\
@@ -49,7 +48,7 @@ year = {2023},\
 isbn = {9798400701085},\
 publisher = {Association for Computing Machinery},\
 address = {New York, NY, USA},\
-url = {https://doi.org/10.1145/3581783.3612465},\
+url = {https://doi.org/10.1145/3581783.3612465}, \
 doi = {10.1145/3581783.3612465},\
 booktitle = {Proceedings of the 31st ACM International Conference on Multimedia},\
 pages = {397–405},\
@@ -59,8 +58,7 @@ location = {Ottawa ON, Canada},\
 series = {MM '23}\
 }
 
-arXiv
-
+#### arXiv
 @article{reco2022article,\
   title={ReCo: A Dataset for Residential Community Layout Planning},\
   author={Chen, Xi and Xiong, Yun and Wang, Siqi and Wang, Haofen and Sheng, Tao and Zhang, Yao and Ye, Yu},\
