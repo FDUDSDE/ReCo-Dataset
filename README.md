@@ -3,7 +3,7 @@ This is the offical repository for **Re**sidential **Co**mmunity Layout Planning
 
 🔥🔥🔥Our paper has been accepted by [ACMMM'23 (Oral)](https://dl.acm.org/doi/10.1145/3581783.3612465).
 
-Detailed information for our dataset please see our article preprint at arXiv: https://arxiv.org/abs/2206.04678
+Detailed information for our dataset please see our article preprint at [arXiv](https://arxiv.org/abs/2206.04678)
 
 Our dataset is under the [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
@@ -32,21 +32,13 @@ We used the same hyperparameters in our four sub-experiments.
 #### Model architecture
 ![image](https://github.com/FDUDSDE/ReCo-Dataset/blob/main/images/model.png)
 
-## Dataset DOI
+## DOI
+### Paper
+10.1145/3581783.3612465
+### Dataset
 10.34740/kaggle/dsv/3689702
 
 ## Citation
-### Datset Citation
-@misc{reco2022dataset, \
-  title={ReCo:Residential Community Layout Planning Dataset}, \
-  url={https://www.kaggle.com/dsv/3689702}, \
-  DOI={10.34740/KAGGLE/DSV/3689702}, \
-  publisher={Kaggle}, \
-  author={Xi Chen and Yun Xiong and Siqi Wang and Haofen Wang and Tao Sheng and Yao Zhang and Yu Ye}, \
-  year={2022}, \
-  copyright={Creative Commons Attribution Non Commercial Share Alike 4.0 International}\
-}
- 
 ### Article Citation
 🔥ACMMM'23
 
@@ -74,6 +66,17 @@ arXiv
   author={Chen, Xi and Xiong, Yun and Wang, Siqi and Wang, Haofen and Sheng, Tao and Zhang, Yao and Ye, Yu},\
   journal={arXiv preprint arXiv:2206.04678},\
   year={2022},\
+  copyright={Creative Commons Attribution Non Commercial Share Alike 4.0 International}\
+}
+
+### Datset Citation
+@misc{reco2022dataset, \
+  title={ReCo:Residential Community Layout Planning Dataset}, \
+  url={https://www.kaggle.com/dsv/3689702}, \
+  DOI={10.34740/KAGGLE/DSV/3689702}, \
+  publisher={Kaggle}, \
+  author={Xi Chen and Yun Xiong and Siqi Wang and Haofen Wang and Tao Sheng and Yao Zhang and Yu Ye}, \
+  year={2022}, \
   copyright={Creative Commons Attribution Non Commercial Share Alike 4.0 International}\
 }
 
