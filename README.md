@@ -1,6 +1,8 @@
 ## ReCo-Dataset
 This is the offical repository for **Re**sidential **Co**mmunity Layout Planning (**ReCo**) Dataset
 
+🔥🔥🔥Our paper has been accepted by [ACMMM'23 (Oral)](https://dl.acm.org/doi/10.1145/3581783.3612465).
+
 Detailed information for our dataset please see our article preprint at arXiv: https://arxiv.org/abs/2206.04678
 
 Our dataset is under the [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
@@ -46,6 +48,27 @@ We used the same hyperparameters in our four sub-experiments.
 }
  
 ### Article Citation
+🔥ACMMM'23
+
+@inproceedings{10.1145/3581783.3612465,\
+author = {Chen, Xi and Xiong, Yun and Wang, Siqi and Wang, Haofen and Sheng, Tao and Zhang, Yao and Ye, Yu},\
+title = {ReCo: A Dataset for Residential Community Layout Planning},\
+year = {2023},\
+isbn = {9798400701085},\
+publisher = {Association for Computing Machinery},\
+address = {New York, NY, USA},\
+url = {https://doi.org/10.1145/3581783.3612465},\
+doi = {10.1145/3581783.3612465},\
+booktitle = {Proceedings of the 31st ACM International Conference on Multimedia},\
+pages = {397–405},\
+numpages = {9},\
+keywords = {residential community layout, layout planning and design, dataset, layout generation},\
+location = {Ottawa ON, Canada},\
+series = {MM '23}\
+}
+
+arXiv
+
 @article{reco2022article,\
   title={ReCo: A Dataset for Residential Community Layout Planning},\
   author={Chen, Xi and Xiong, Yun and Wang, Siqi and Wang, Haofen and Sheng, Tao and Zhang, Yao and Ye, Yu},\
@@ -53,8 +76,6 @@ We used the same hyperparameters in our four sub-experiments.
   year={2022},\
   copyright={Creative Commons Attribution Non Commercial Share Alike 4.0 International}\
 }
-
-Our paper has been accepted by ACM MM'23, the citation information will be updated soon!
 
 ## Acknowledgments
 This work is funded in part by the National Natural Science Foundation of China Projects No. U1936213, No.62176185. This work is also partially supported by the Shanghai Science and Technology Development Fund No. 19DZ1200802, and by the Shanghai Municipal Science and Technology Major Project (2021SHZDZX0100) and the Fundamental Research Funds for the Central Universities.
